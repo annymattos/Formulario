@@ -1,0 +1,47 @@
+#titulo {
+    color:rgb(73, 12, 12);
+    font: bold 180% cursive;
+    font-family: 'Lobster', cursive;
+}
+
+#texta {
+    color: firebrick;
+   /* font: 120% comic; */
+    font-family: 'ZCOOL XiaoWei', serif;
+    background: transparent
+    }
+
+#guardar { 
+    font:bold 100% serif;
+    width:100px;
+     height:40px;
+     border: 0.5px solid rgb(209, 125, 125)
+}
+
+fieldset legend {
+    color: firebrick;
+   /* font: 120% comic;*/
+   font-family: 'ZCOOL XiaoWei', serif;
+    }
+
+fieldset{
+      border-style:  inset  
+    }
+    
+
+label {
+        color: rgb(17, 29, 20);
+        font: 90% serif;
+        text-shadow: 0 0 rgb(231, 167, 28);
+        font-family: 'Acme', sans-serif;
+        }
+    
+input{
+    border: none;
+    border-bottom: 0.5px solid rgb(209, 125, 125);
+    background: transparent
+}
+
+div {
+    width: 800px
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ejercicio Formulario</title>
+    <link rel="stylesheet" href="ejercicio4.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Lobster|ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+</head>
+<body background="./fondo.jpg">
+<h3 id="titulo" > Registro</h3>
+
+<form method="POST">
+    <div>
+    <fieldset>
+        <legend> Datos Personales </legend>
+        <br>
+        <label> Nombre <input type="text" name="nombre" /></label>
+        &nbsp;
+        <label> Apellido <input type="text" name="apellido" /></label>
+        <br>
+        <br>
+        <label> Sexo <input type="radio" name="sexo" value="femenino" checked/> Femenino
+            <input type="radio" name="sexo" value="masculino"/> Masculino
+        </label>
+        <br>
+        <br>
+        <label> Edad <input type="number" name="edad" /></label>
+        <br>
+        <br>
+        <label> Fecha Nacimiento <input type="date" name="fechanacim" /></label>
+        <br>
+        <br>
+        <label> Estado Civil</label>
+        <select name="select">
+                <option value="Soltero" selected> Soltero</option> 
+                <option value="Casado"> Casado</option>
+                <option value="Divorciado"> Divorciado</option>
+                <option value="Viudo"> Viudo</option>
+              </select>
+        <br>
+        <br>
+        <label> Calle <input type="text" name="calle" /></label>
+        &nbsp;
+        <label> Número <input type="text" name="nro" /></label>
+        &nbsp;
+        <label> Localidad <input type="text" name="localidad" /></label>
+        &nbsp;
+        <label> CP <input type="number" name="cp" /></label>
+        <br>
+        <br>
+    </fieldset>
+    &nbsp;
+    &nbsp;
+    <fieldset>
+        <legend> Usuario</legend>
+        <br>
+        <label> Usuario <input type="mail" name:"mail" /></label>
+        <br>
+        <br>
+        <label> Contraseña <input type="password" name:"pass" maxlength=6/></label>
+        <br>
+        <br>
+    </fieldset>
+    <br>
+    <label id="texta"> Comentarios
+    <br>    
+    <textarea name="comentarios" rows="5" cols="auto"></textarea></label>
+</div>
+<br>
+<input type="submit" name="guardar" value="Guardar" id="guardar"/>
+</form>
+</body>
